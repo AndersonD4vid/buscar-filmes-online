@@ -1,0 +1,49 @@
+.container .title{
+  color: white;
+  font-size: 1.5rem;
+  margin: 3rem 0 1rem;
+  text-align: center;
+}
+
+.title .query-text{
+  color: #f7d354;
+}
+
+.movies-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding:  2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+
+.movies-container div img {
+  max-width: 100%;
+}
+
+.movie-card{
+  width: 30%;
+  color: #fff;
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #111;
+  border-radius: 15px;
+}
+
+.movie-card img{
+  border-radius: 15px 15px 0px 0px;
+}
+
+.infor{
+  padding: 20px 20px 20px 20px;
+}
+
+
+.movies-container div a{
+  font-size: 1.3rem;
+  transition: .4s;
+}
