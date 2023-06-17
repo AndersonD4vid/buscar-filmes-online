@@ -10,7 +10,7 @@ const apiKey = import.meta.env.VITE_API_KEY;
 export default function Search() {
   const [searchParams] = useSearchParams();
   const [movies, setMovies] = useState([]);
-  const query = searchParams.get("q");
+  const query = searchParams.get("query");
 
   const getSearchedMovies = async (url) => {
     const resposta = await fetch(url)
