@@ -21,10 +21,7 @@ export default function Card({movie, showLink = true}) {
           {showLink && <Link to={`/movie/${movie.id}`}>Detalhes</Link>}
         </div>
       </div>
-    <a
-                     target='_blank'
-                     rel='external'
-                     href={`https://youtube.com/results?search_query=${movie.title} Trailer`} >Assistir Trailer</a>
+    
     </div>
   )
 }
