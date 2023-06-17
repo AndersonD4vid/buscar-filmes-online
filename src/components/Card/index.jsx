@@ -24,7 +24,7 @@ export default function Card({movie, showLink = true}) {
     <a
                      target='_blank'
                      rel='external'
-                     href={`https://youtube.com/results?search_query=${filmes.title} Trailer`} >Assistir Trailer</a>
+                     href={`https://youtube.com/results?search_query=${movie.title} Trailer`} >Assistir Trailer</a>
     </div>
   )
 }
