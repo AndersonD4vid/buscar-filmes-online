@@ -46,7 +46,7 @@ export default function Movie() {
           <a
          target='_blank'
          rel='external'
-            style={{martinBottom: 10}}
+            style={{marginBottom: 10}}
          href={`https://youtube.com/results?search_query=${movie.title} Trailer`} >Assistir Trailer</a>
           <p className="tagline">{movie.tagline}</p>
           <div className="info">
